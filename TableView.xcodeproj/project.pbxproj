@@ -12,6 +12,10 @@
 		FAC1E6A8226C1D4A006D45E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1E6A7226C1D4A006D45E2 /* Assets.xcassets */; };
 		FAC1E6AB226C1D4A006D45E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC1E6A9226C1D4A006D45E2 /* LaunchScreen.storyboard */; };
 		FAC1E6B6226C1F82006D45E2 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1E6B5226C1F82006D45E2 /* ServiceCell.swift */; };
+		FAC1E6B9226C227F006D45E2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1E6B8226C227F006D45E2 /* Extension.swift */; };
+		FAC1E6BB226CD2DA006D45E2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1E6BA226CD2DA006D45E2 /* Protocol.swift */; };
+		FAC1E6BD226CD512006D45E2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1E6BC226CD512006D45E2 /* ProfileVC.swift */; };
+		FAC1E6BF226CD584006D45E2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1E6BE226CD584006D45E2 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FAC1E6AA226C1D4A006D45E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC1E6AC226C1D4B006D45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC1E6B5226C1F82006D45E2 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		FAC1E6B8226C227F006D45E2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FAC1E6BA226CD2DA006D45E2 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		FAC1E6BC226CD512006D45E2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		FAC1E6BE226CD584006D45E2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		FAC1E69F226C1D4A006D45E2 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1E6B7226C226F006D45E2 /* Utils */,
 				FAC1E6B4226C1F5F006D45E2 /* Model */,
 				FAC1E6B3226C1F4D006D45E2 /* View */,
 				FAC1E6B2226C1F45006D45E2 /* Controller */,
@@ -69,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC1E6A2226C1D4A006D45E2 /* ServiceTableVC.swift */,
+				FAC1E6BC226CD512006D45E2 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -84,8 +94,18 @@
 		FAC1E6B4226C1F5F006D45E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1E6BE226CD584006D45E2 /* UserModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC1E6B7226C226F006D45E2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1E6B8226C227F006D45E2 /* Extension.swift */,
+				FAC1E6BA226CD2DA006D45E2 /* Protocol.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC1E6BD226CD512006D45E2 /* ProfileVC.swift in Sources */,
+				FAC1E6BF226CD584006D45E2 /* UserModel.swift in Sources */,
 				FAC1E6B6226C1F82006D45E2 /* ServiceCell.swift in Sources */,
 				FAC1E6A3226C1D4A006D45E2 /* ServiceTableVC.swift in Sources */,
 				FAC1E6A1226C1D4A006D45E2 /* AppDelegate.swift in Sources */,
+				FAC1E6B9226C227F006D45E2 /* Extension.swift in Sources */,
+				FAC1E6BB226CD2DA006D45E2 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
