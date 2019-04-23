@@ -89,7 +89,7 @@ extension PostFeedTableVC : userPostDelegate {
 
     
     func handleUserImageTapped(cell: UserPostCell) {
-        let profileVC = ProfileVC()
+        let profileVC = UserProfileController()
         profileVC.user = cell.userModel
         navigationController?.pushViewController(profileVC, animated: true)
     }
