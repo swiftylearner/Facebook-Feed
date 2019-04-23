@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = UINavigationController(rootViewController: ServiceTableVC())
+        window?.rootViewController = UINavigationController(rootViewController: PostFeedTableVC())
         
         return true
     }

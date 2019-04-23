@@ -9,5 +9,8 @@
 import Foundation
 
 protocol userPostDelegate {
-    func handleUserImageTapped(cell:ServiceCell)
+    func handleUserImageTapped(cell:UserPostCell)
+    func handleLikeTappedFor(user:UserModel?)
+    func handleCommentTappedFor(user:UserModel?)
+    func handleSharedTappedFor(user:UserModel?)
 }
